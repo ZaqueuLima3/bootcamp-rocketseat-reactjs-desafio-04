@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #333;
+  }
+  
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #333;
+opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #333;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #333;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  background-color: #eee;
+  color: #4A4A4A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+}
+
+input,
+select,
+textarea {
+  font-size: 1rem;
+}
